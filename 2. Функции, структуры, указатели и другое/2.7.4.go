@@ -6,9 +6,9 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
 	"os"
-	"bufio"
 	"unicode/utf8"
 )
 
@@ -18,5 +18,12 @@ func main() {
 	for i := 0; i < utf8.RuneCountInString(text); i++ {
 		fmt.Print((int(bs[i]) - 48) * (int(bs[i]) - 48))
 	}
-}
 
+	m := make(map[float32]int)
+
+	var s = []map[int]string{}
+
+	var s []map[int]int
+
+	var users []string
+}
